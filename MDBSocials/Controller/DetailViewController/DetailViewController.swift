@@ -9,22 +9,31 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
+    
+    @IBOutlet weak var backButton: UIButton!
+    var selectedEvent: Event!
+    @IBOutlet weak var eventDetailsText: UILabel!
+    @IBOutlet weak var rsvpText: UILabel!
+    @IBOutlet weak var interestedButton: UIButton!
+    @IBOutlet weak var eventMemberText: UILabel!
+    @IBOutlet weak var eventNameText: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setUpDetails()
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func interestedInEvent(_ sender: Any) {
+        
     }
-    */
-
+    func setUpDetails() {
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "AppBackground")!)
+        interestedButton.roundedButton()
+        backButton.roundedButton()
+        eventNameText.text = selectedEvent.eventName
+        rsvpText.text = "RSVP Count: " + String(selectedEvent.numInterested)
+        eventMemberText.text = "Created By: " + selectedEvent.creator
+        eventDetailsText.text = selectedEvent.eventDescription
+    }
+    
 }
