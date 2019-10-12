@@ -23,9 +23,10 @@ class DetailViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func interestedInEvent(_ sender: Any) {
-        
+    @IBAction func backToFeed(_ sender: Any) {
+        self.performSegue(withIdentifier: "backToFeedFromDetails", sender: self)
     }
+    
     func setUpDetails() {
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "AppBackground")!)
         interestedButton.roundedButton()
@@ -35,5 +36,6 @@ class DetailViewController: UIViewController {
         eventMemberText.text = "Created By: " + selectedEvent.creator
         eventDetailsText.text = selectedEvent.eventDescription
     }
+    
     
 }

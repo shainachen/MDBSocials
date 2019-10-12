@@ -26,7 +26,6 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidLoad()
         feedTableView.delegate = self
         feedTableView.dataSource = self
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "AppBackground")!)
         addNewEvent()
         updateEvents()
         print("event number:", events.count)
@@ -90,7 +89,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             cell.eventNameText.text = myEvent.eventName
             cell.posterNameText.text = "Created by: " + myEvent.creator
             cell.numberInterested.text = "RSVP: " + String(myEvent.numInterested)
-            cell.backgroundColor = UIColor(patternImage: UIImage(named: "EventBackground")!)
+            cell.backgroundColor = UIColor(patternImage: UIImage(named: "AppBackground")!)
             return cell
         }
         return UITableViewCell()

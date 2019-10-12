@@ -30,7 +30,6 @@ class NewSocialViewController: UIViewController, UIImagePickerControllerDelegate
         }else {
             self.cameraSetup()
         }
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "AppBackground")!)
         addImageButton.roundedButton()
             createEventButton.roundedButton()
     cancelButton.roundedButton()
