@@ -20,22 +20,9 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpDetails()
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func backToFeed(_ sender: Any) {
         self.performSegue(withIdentifier: "backToFeedFromDetails", sender: self)
     }
-    
-    func setUpDetails() {
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "AppBackground")!)
-        interestedButton.roundedButton()
-        backButton.roundedButton()
-        eventNameText.text = selectedEvent.eventName
-        rsvpText.text = "RSVP Count: " + String(selectedEvent.numInterested)
-        eventMemberText.text = "Created By: " + selectedEvent.creator
-        eventDetailsText.text = selectedEvent.eventDescription
-    }
-    
-    
 }

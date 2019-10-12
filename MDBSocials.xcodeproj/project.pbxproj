@@ -18,6 +18,16 @@
 		261AFA9C233FF7A5001B485E /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261AFA9B233FF7A5001B485E /* SignupViewController.swift */; };
 		261AFA9E233FF7B2001B485E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261AFA9D233FF7B2001B485E /* LoginViewController.swift */; };
 		261AFAA0233FF997001B485E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 261AFA9F233FF997001B485E /* GoogleService-Info.plist */; };
+		2656059C2351856B00928C69 /* LoginViewControllerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656059B2351856B00928C69 /* LoginViewControllerUI.swift */; };
+		2656059E2351857500928C69 /* LoginViewControllerLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656059D2351857500928C69 /* LoginViewControllerLogic.swift */; };
+		265605A02351857C00928C69 /* SignupViewControllerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656059F2351857C00928C69 /* SignupViewControllerUI.swift */; };
+		265605A22351858400928C69 /* SignupViewControllerLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265605A12351858400928C69 /* SignupViewControllerLogic.swift */; };
+		265605A42351858D00928C69 /* FeedViewControllerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265605A32351858D00928C69 /* FeedViewControllerUI.swift */; };
+		265605A62351859300928C69 /* FeedViewControllerLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265605A52351859300928C69 /* FeedViewControllerLogic.swift */; };
+		265605A82351859C00928C69 /* DetailViewControllerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265605A72351859C00928C69 /* DetailViewControllerUI.swift */; };
+		265605AA235185A300928C69 /* DetailViewControllerLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265605A9235185A300928C69 /* DetailViewControllerLogic.swift */; };
+		265605AC235185AC00928C69 /* NewSocialViewControllerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265605AB235185AC00928C69 /* NewSocialViewControllerUI.swift */; };
+		265605AE235185B300928C69 /* NewSocialViewControllerLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265605AD235185B300928C69 /* NewSocialViewControllerLogic.swift */; };
 		268BB81F2351007800176A80 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BB81E2351007800176A80 /* Event.swift */; };
 		268BB82323510C2100176A80 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BB82223510C2100176A80 /* FeedTableViewCell.swift */; };
 		8B5B82E6BF0F2525E1E0DA20 /* Pods_MDBSocials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3764962FC4802748DEA94631 /* Pods_MDBSocials.framework */; };
@@ -38,6 +48,16 @@
 		261AFA9B233FF7A5001B485E /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		261AFA9D233FF7B2001B485E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		261AFA9F233FF997001B485E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2656059B2351856B00928C69 /* LoginViewControllerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerUI.swift; sourceTree = "<group>"; };
+		2656059D2351857500928C69 /* LoginViewControllerLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerLogic.swift; sourceTree = "<group>"; };
+		2656059F2351857C00928C69 /* SignupViewControllerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewControllerUI.swift; sourceTree = "<group>"; };
+		265605A12351858400928C69 /* SignupViewControllerLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewControllerLogic.swift; sourceTree = "<group>"; };
+		265605A32351858D00928C69 /* FeedViewControllerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewControllerUI.swift; sourceTree = "<group>"; };
+		265605A52351859300928C69 /* FeedViewControllerLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewControllerLogic.swift; sourceTree = "<group>"; };
+		265605A72351859C00928C69 /* DetailViewControllerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerUI.swift; sourceTree = "<group>"; };
+		265605A9235185A300928C69 /* DetailViewControllerLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerLogic.swift; sourceTree = "<group>"; };
+		265605AB235185AC00928C69 /* NewSocialViewControllerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSocialViewControllerUI.swift; sourceTree = "<group>"; };
+		265605AD235185B300928C69 /* NewSocialViewControllerLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSocialViewControllerLogic.swift; sourceTree = "<group>"; };
 		268BB81E2351007800176A80 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		268BB82223510C2100176A80 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		3764962FC4802748DEA94631 /* Pods_MDBSocials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDBSocials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				261AFA9D233FF7B2001B485E /* LoginViewController.swift */,
+				2656059B2351856B00928C69 /* LoginViewControllerUI.swift */,
+				2656059D2351857500928C69 /* LoginViewControllerLogic.swift */,
 			);
 			path = LoginViewController;
 			sourceTree = "<group>";
@@ -130,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				261AFA9B233FF7A5001B485E /* SignupViewController.swift */,
+				2656059F2351857C00928C69 /* SignupViewControllerUI.swift */,
+				265605A12351858400928C69 /* SignupViewControllerLogic.swift */,
 			);
 			path = SignupViewController;
 			sourceTree = "<group>";
@@ -139,6 +163,8 @@
 			children = (
 				261AFA99233FF79C001B485E /* FeedViewController.swift */,
 				268BB82223510C2100176A80 /* FeedTableViewCell.swift */,
+				265605A32351858D00928C69 /* FeedViewControllerUI.swift */,
+				265605A52351859300928C69 /* FeedViewControllerLogic.swift */,
 			);
 			path = FeedViewController;
 			sourceTree = "<group>";
@@ -147,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				261AFA97233FF790001B485E /* DetailViewController.swift */,
+				265605A72351859C00928C69 /* DetailViewControllerUI.swift */,
+				265605A9235185A300928C69 /* DetailViewControllerLogic.swift */,
 			);
 			path = DetailViewController;
 			sourceTree = "<group>";
@@ -155,6 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				261AFA95233FF784001B485E /* NewSocialViewController.swift */,
+				265605AB235185AC00928C69 /* NewSocialViewControllerUI.swift */,
+				265605AD235185B300928C69 /* NewSocialViewControllerLogic.swift */,
 			);
 			path = NewSocialViewController;
 			sourceTree = "<group>";
@@ -303,12 +333,22 @@
 			files = (
 				268BB81F2351007800176A80 /* Event.swift in Sources */,
 				261AFA9E233FF7B2001B485E /* LoginViewController.swift in Sources */,
+				265605A22351858400928C69 /* SignupViewControllerLogic.swift in Sources */,
+				265605AE235185B300928C69 /* NewSocialViewControllerLogic.swift in Sources */,
 				261AFA9C233FF7A5001B485E /* SignupViewController.swift in Sources */,
 				261AFA7E233FF61D001B485E /* ViewController.swift in Sources */,
+				265605A62351859300928C69 /* FeedViewControllerLogic.swift in Sources */,
+				2656059C2351856B00928C69 /* LoginViewControllerUI.swift in Sources */,
+				265605A82351859C00928C69 /* DetailViewControllerUI.swift in Sources */,
 				261AFA7C233FF61D001B485E /* AppDelegate.swift in Sources */,
 				261AFA9A233FF79C001B485E /* FeedViewController.swift in Sources */,
 				261AFA96233FF784001B485E /* NewSocialViewController.swift in Sources */,
 				268BB82323510C2100176A80 /* FeedTableViewCell.swift in Sources */,
+				265605AC235185AC00928C69 /* NewSocialViewControllerUI.swift in Sources */,
+				265605AA235185A300928C69 /* DetailViewControllerLogic.swift in Sources */,
+				2656059E2351857500928C69 /* LoginViewControllerLogic.swift in Sources */,
+				265605A02351857C00928C69 /* SignupViewControllerUI.swift in Sources */,
+				265605A42351858D00928C69 /* FeedViewControllerUI.swift in Sources */,
 				261AFA98233FF790001B485E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
