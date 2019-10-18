@@ -9,6 +9,7 @@
 import UIKit
 
 extension NewSocialViewController {
+    /// setting up UI
     func setupUI() {
         addImageButton.roundedButton()
         createEventButton.roundedButton()

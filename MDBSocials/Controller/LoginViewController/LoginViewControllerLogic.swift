@@ -10,6 +10,7 @@ import UIKit
 import Firebase
 import FirebaseAuth
 extension LoginViewController {
+    /// Handle login information through Firebase
     func handleLogin() {
         loginButton.isUserInteractionEnabled = false
         var userName = ""
@@ -38,6 +39,8 @@ extension LoginViewController {
         })
     }
     
+    
+    /// Displays alert for error
     func displayAlert(title: String, message: String) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)

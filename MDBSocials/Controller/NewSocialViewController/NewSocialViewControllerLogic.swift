@@ -11,6 +11,7 @@ import Firebase
 import FirebaseAuth
 
 extension NewSocialViewController {
+    /// Set up for login
     func logicSetup() {
         if !UIImagePickerController.isSourceTypeAvailable(.camera) {
             self.displayAlert(title: "No camera detected", message: "Could not locate camera to use.")
@@ -19,6 +20,7 @@ extension NewSocialViewController {
         }
     }
     
+    /// Setting up the camera
     func cameraSetup() {
         let picker = UIImagePickerController()
         picker.delegate = self
@@ -27,7 +29,7 @@ extension NewSocialViewController {
             = .front
         self.present(picker, animated: false, completion: nil)
     }
-    
+    /// Create event object given the inputs
     func createEventGivenFields() {
         var name = ""
         var description = ""
@@ -75,6 +77,7 @@ extension NewSocialViewController {
         }
     }
     
+    /// Set up the image picker
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let info = info[UIImagePickerController.InfoKey.originalImage] as? UIImage, let optimizedImageData = info.jpegData(compressionQuality: 0.6) {
             self.event = info

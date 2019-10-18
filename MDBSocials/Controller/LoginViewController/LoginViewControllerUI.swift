@@ -9,6 +9,7 @@
 import UIKit
 
 extension LoginViewController {
+    /// Setting up UI
     func setupUI() {
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "AppBackground")!)
         loginButton.roundedButton()

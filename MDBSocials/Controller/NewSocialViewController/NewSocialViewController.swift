@@ -29,6 +29,9 @@ class NewSocialViewController: UIViewController, UIImagePickerControllerDelegate
         setupUI()
     }
     
+    /// Creates an event when pressing the button
+    ///
+    /// - Parameter sender
     @IBAction func createEvent(_ sender: Any) {
         createEventGivenFields()
     }

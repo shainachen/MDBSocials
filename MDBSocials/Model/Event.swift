@@ -15,7 +15,7 @@ class Event {
     var dateSelected: Date
     var numInterested: Int
  //   var image: UIImage
-    
+    ///initialize the event
     init(name: String, event: [String: Any]) {
         self.eventName = name
         

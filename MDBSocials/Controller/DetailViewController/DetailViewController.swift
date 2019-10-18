@@ -21,7 +21,7 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         setUpDetails()
     }
-    
+    ///Segue back to the feed
     @IBAction func backToFeed(_ sender: Any) {
         self.performSegue(withIdentifier: "backToFeedFromDetails", sender: self)
     }
